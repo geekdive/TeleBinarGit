@@ -2,7 +2,7 @@
 Git Config CMD
 
 ### Latihan 1:
-```shell
+```java
 ╭─[~/Downloads/ProjectGitLab/GitConfig]─[septiyadi@resolver]─[0]─[412]
 ╰─[:)] % git config —global user.name "septiyadii"
 ╭─[~/Downloads/ProjectGitLab/GitConfig]─[septiyadi@resolver]─[0]─[413]
