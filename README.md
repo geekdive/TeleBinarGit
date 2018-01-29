@@ -1,38 +1,27 @@
 # TeleBinarGit
 Git Config CMD
 
-### Latihan 1:
-```java
-╭─[~/Downloads/ProjectGitLab/GitConfig]─[septiyadi@resolver]─[0]─[412]
-╰─[:)] % git config —global user.name "septiyadii"
-╭─[~/Downloads/ProjectGitLab/GitConfig]─[septiyadi@resolver]─[0]─[413]
-╰─[:)] % git config —global user.mail septiyadi@mhs.pelitabangsa.ac.id
-╭─[~/Downloads/ProjectGitLab/GitConfig]─[septiyadi@resolver]─[0]─[414]
-╰─[:)] % git init
-Initialized empty Git repository in /home/septiyadi/Downloads/ProjectGitLab/GitConfig/.git/
-╭─[~/Downloads/ProjectGitLab/GitConfig]─[septiyadi@resolver]─[0]─[415]
-╰─[:)] % git add *
-zsh: no matches found: *
-╭─[~/Downloads/ProjectGitLab/GitConfig]─[septiyadi@resolver]─[1]─[416]
-╰─[:(] % git commit -m "versi 1.0.0"
-On branch master
+### Latihan 1
+$ `git config —global user.name "septiyadii"`<br>
+$ `git config —global user.mail septiyadi@mhs.pelitabangsa.ac.id`<br>
+$ `git init`<br>
+Initialized empty Git repository in /home/septiyadi/Downloads/ProjectGitLab/GitConfig/.git/<br>
+$ `git add * (*filenya`<br>
+$ `git commit -m "versi 1.0.0"<br>`
+On branch master<br><br>
 
-Initial commit
+Initial commit<br><br>
 
-nothing to commit
-╭─[~/Downloads/ProjectGitLab/GitConfig]─[septiyadi@resolver]─[1]─[417]
-╰─[:(] % git remote add origin https://github.com/septiyadii/TeleBinarGit.git
-╭─[~/Downloads/ProjectGitLab/GitConfig]─[septiyadi@resolver]─[0]─[418]
-╰─[:)] % git pull origin master
-remote: Counting objects: 3, done.
-remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
-Unpacking objects: 100% (3/3), done.
-From https://github.com/septiyadii/TeleBinarGit
- * branch            master     -> FETCH_HEAD
+nothing to commit<br>
+$ `git remote add origin https://github.com/septiyadii/TeleBinarGit.git`<br>
+$ `git pull origin master`<br>
+remote: Counting objects: 3, done.<br>
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0<br>
+Unpacking objects: 100% (3/3), done.<br>
+From https://github.com/septiyadii/TeleBinarGit<br>
+ * branch            master     -> FETCH_HEAD<br>
  * [new branch]      master     -> origin/master
-╭─[~/Downloads/ProjectGitLab/GitConfig]─[septiyadi@resolver]─[0]─[419]
-╰─[:)] % git push origin master
-Username for 'https://github.com': septiyadii
-Password for 'https://septiyadii@github.com': 
+$ `git push origin master`
+`Username` for 'https://github.com': septiyadii
+`Password` for 'https://septiyadii@github.com': 
 Everything up-to-date
-```
