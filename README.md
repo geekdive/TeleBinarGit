@@ -35,5 +35,4 @@ From https://github.com/septiyadii/TeleBinarGit
 Username for 'https://github.com': septiyadii
 Password for 'https://septiyadii@github.com': 
 Everything up-to-date
-╭─[~/Downloads/ProjectGitLab/GitConfig]─[septiyadi@resolver]─[0]─[420]
 ```
